@@ -1,9 +1,16 @@
+@import "./Main.css";
+@import '~antd/dist/antd.css';
+@import "./Register.css";
+@import "TopBar.css";
+@import './Login.css';
+@import "./Gallery.css";
+@import "./AroundMarker.css";
 .App {
   text-align: center;
 }
 
 .App-logo {
-  height: 40vmin;
+  height: 15vmin;
   pointer-events: none;
 }
 
@@ -15,7 +22,7 @@
 
 .App-header {
   background-color: #282c34;
-  min-height: 100vh;
+  min-height: 25vh;
   display: flex;
   flex-direction: column;
   align-items: center;
